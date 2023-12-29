@@ -98,7 +98,7 @@ public class ManajemenPlatNomor {
         return cariBantuan(node.right, nomorPlat);
     }
 
-    // Metode bantu untuk memperbaiki pohon setelah operasi penyisipan
+    // memperbaiki pohon setelah operasi penyisipan
     private void perbaikiSisip(Node k){
         Node u;
         while (k.parent.warna == 1) {
@@ -197,7 +197,7 @@ public class ManajemenPlatNomor {
         }
     }
 
-    // Metode bisnis: Melakukan pencarian dan menampilkan hasilnya
+    //Melakukan pencarian dan menampilkan hasilnya
     public void melakukanPencarian(String nomorPlat) {
         DataPlatNomor hasilPencarian = cari(nomorPlat);
         if (hasilPencarian != null) {
