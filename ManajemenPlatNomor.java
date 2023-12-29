@@ -181,7 +181,7 @@ public class ManajemenPlatNomor {
         x.parent = y;
     }
 
-    // Metode bisnis: Mencetak semua data plat nomor dalam urutan inorder
+    // Mencetak semua data plat nomor dalam urutan inorder
     public void cetakSemuaData() {
         System.out.println("Data Plat Nomor (Urutan Inorder):");
         inorderTraversal(root);
